@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Tacos Don Paco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            color: #ff6347;
+        }
+        section {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff6347;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galería - Tacos Don Paco</h1>
+    <p>¡Descubre nuestras delicias visuales!</p>
+</header>
+
+<section>
+    <h2>Nuestras Imágenes</h2>
+    <div class="gallery">
+        <!-- Aquí puedes añadir tus imágenes -->
+        <img src="img/asada.jpg" alt="Taco de carne asada">
+        <img src="img/pastor.jpg" alt="Taco al pastor con piña">
+        <img src="img/surtidos.jpg" alt="Tacos surtidos en plato">
+        <img src="img/salsa.jpg" alt="Salsa y guarniciones">
+        <img src="img/don.jpg" alt="Tacos en el puesto de Don Paco">
+        <img src="img/tortillas.jpg" alt="Tortillas recién hechas">
+        <!-- Añade más imágenes si es necesario -->
+    </div>
+</section>
+
+<footer>
+    <p>¡Ven y disfruta de nuestros tacos legendarios en Tacos Don Paco!</p>
+</footer>
+
+</body>
+</html>
